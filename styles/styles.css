@@ -77,9 +77,10 @@ header ul.flex{
 /* main */
 
 main section{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
+/* #getting started */
 section#getting-started{
     text-align: center;
 }
@@ -103,6 +104,44 @@ section#getting-started{
     background-color: #f1c40f;
     padding: 5px 8px;
     cursor: pointer;
+}
+
+/* #features */
+#features h2{
+    font-size: 1.3rem;
+}
+
+#features p{
+    font-size: .8rem;
+}
+
+#features li{
+    padding: 40px 0;    
+}
+
+li::before{
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    color: darkorange;
+    float: left;
+    padding-right: 50px;
+    font-size: 2.5rem;
+    width: 50px;
+    text-align: center;
+}
+
+li.flame::before{
+    content: "\f7e4";
+}
+
+li.truck::before{
+    content: "\f0d1"
+}
+
+li.battery::before{
+    content:"\f240"
 }
 
 /* footer */
