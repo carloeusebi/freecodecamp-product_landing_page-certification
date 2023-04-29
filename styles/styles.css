@@ -25,6 +25,7 @@ html{
 body{
     background-color: var(--main-bg-color);
     font-family: sans-serif;
+    padding-top: 100px;
 }
 
 ul{
@@ -74,9 +75,34 @@ header ul.flex{
 }
 
 /* main */
-section{
-    width: 100%;
-    height: 800px;
+
+main section{
+    margin-bottom: 3rem;
+}
+
+section#getting-started{
+    text-align: center;
+}
+
+#getting-started h1{
+    margin: 20px 0;
+    font-size: 1.3rem;
+}
+
+#getting-started #email{
+    height: 1.5rem;
+    width: 15rem;
+}
+
+#getting-started #submit{
+    display: block;
+    margin: 20px auto;
+    border: none;
+    font-weight: 900;
+    font-size: .9rem;
+    background-color: #f1c40f;
+    padding: 5px 8px;
+    cursor: pointer;
 }
 
 /* footer */
