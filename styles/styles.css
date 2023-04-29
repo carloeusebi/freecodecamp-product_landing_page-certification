@@ -45,7 +45,6 @@ a{
 
 .flex{
     display: flex;
-    align-items: center;
 }
 
 /* header */
@@ -78,7 +77,7 @@ header ul.flex{
 /* main */
 
 main section{
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 /* #getting started */
@@ -147,18 +146,66 @@ li.battery::before{
 
 /* #how-it-works */
 section#how-it-works{
-    text-align: center;
+    text-align: center;    
 }
+
+/* pricing */
+#pricing .row{
+    gap: 15px;
+}
+
+#pricing .column{
+    flex: 1 1 calc((100% - 30px) / 3)
+}
+
+#pricing .card{
+    text-align: center;
+    border: 1px solid black;
+}
+
+#pricing h3{
+    font-size: 1rem;
+    font-weight: normal;
+    background-color: var(--fter-bg-color);
+    padding: 10px 0;
+}
+
+#pricing .price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+#pricing li{
+    font-size: .8rem;
+    padding: 10px 0;
+}
+
+#pricing .select-button{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 30px 0 20px;
+    font-size: .9rem;
+    background-color: #f1c40f;
+}
+
 /* footer */
 footer{
     background-color: var(--fter-bg-color);
+    padding: 20px 0;
 }
 
 footer .flex.container{
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.fter-about{
-    width: 200px;
-    height: 200px;
+footer li{
+    padding: 0 0 10px 30px;
+    font-size: .8rem;
+}
+
+footer .copyright{
+    color: #444;
+    font-size: .8rem;
 }
