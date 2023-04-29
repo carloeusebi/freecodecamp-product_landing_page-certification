@@ -47,6 +47,7 @@ a{
     display: flex;
     align-items: center;
 }
+
 /* header */
 header{
     background-color: var(--main-bg-color);
@@ -144,6 +145,10 @@ li.battery::before{
     content:"\f240"
 }
 
+/* #how-it-works */
+section#how-it-works{
+    text-align: center;
+}
 /* footer */
 footer{
     background-color: var(--fter-bg-color);
