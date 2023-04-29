@@ -1,0 +1,20 @@
+/* css reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+/* generics */
+body{
+    background-color: #eeeeee;
+}
+
+/* utilities */
+
+/* header */
+
+/* main */
+
+/* footer */
